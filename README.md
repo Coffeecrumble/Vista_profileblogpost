@@ -1,4 +1,2 @@
-# Vista_profileblogpost
-Personal profile blog
-BSIT 2-C
-MELINDA P. VISTA
+ YEAR AND COURSE: BSIT 2-C
+NAME: MELINDA P. VISTA

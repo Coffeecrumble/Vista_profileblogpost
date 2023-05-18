@@ -4,7 +4,7 @@
 
 }
 .intro1{
-	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size:44px ;
 	padding-top:180px;
 	padding-left: 100px;
@@ -12,21 +12,21 @@
 	font-weight: lighter;
 }
 .intro2{
-	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-style: normal;
 	font-size: 44px;
 	font-weight: lighter;
 	margin-top: -40px;
 	padding-left:89px;
-	color: #080400;
+	color: #1b1919;
 }
 
 .bio{
-	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 24px;
 	margin-top: -7px;
 	padding-left: 89px;
-	color:#000000;
+	color:#686161;
 }
 .profile{
 	border-radius: 50%;
@@ -170,18 +170,13 @@
 	margin-left:30px;
 	position:absolute;
    }
-  
-	
-   
-	
-   
    .description{
 	font-size: 24px;
-	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	margin-top: -459px;
 	margin-left: 299px;
 	position: absolute;
-	color: #000000;
+	color: #686161;
    }
    .skills{
 	width:730px;
@@ -196,7 +191,7 @@
 	background-color: #ffffff;
 	margin-top: -1421px;
 	margin-left: 900px;
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	position:absolute;
   }
   
@@ -227,7 +222,7 @@
  .project_titlepic{
 	width: 700px;
 	margin-top: 129px;
-	margin-left: 269px;
+	margin-left: 299px;
 	position:absolute;
  }
 .project1{
@@ -237,23 +232,23 @@
 }
 video{
 	position: absolute;
-	margin-top: 279px;
-	left: 0;
-	width: 430px;
+	margin-top: 589px;
+	left: 100;
+	width: 530px;
 	
 }
 #video2 {
 	position: absolute;
 	margin-top: 279px;
-	margin-left: 440px;
-	width: 430px;
+	margin-left: 401px;
+	width: 530px;
 	
   }
   #video3 {
 	position:absolute;
-	margin-top: 273px;
-	margin-left: 889px;
-	width: 440px;
+	margin-top: 589px;
+	margin-left: 829px;
+	width: 530px;
   }
   .ideasy_picture{
 	width:320px;
@@ -273,23 +268,41 @@ video{
 	margin-top: 539px;
 	margin-left:947px;
     position:absolute;
+	
 
 }
 .get_in_touch{
 	width:690px;
-	margin-top:900px;
+	margin-top:1090px;
 	margin-left:50px;
-	position:relative;
+	position:absolute;
 
 }
 .toy{
 	width:500px;
-	margin-top:990px;
-	margin-left:110px;
+	margin-top:1080px;
+	margin-left:790px;
 	position:absolute;
 }
-  
-  
-  
+.phone{
+	width:260px;
+	margin-top: 1260px;
+	margin-left:58px;
+	position:absolute;
+}
+.email{
+	width:260px;
+	margin-top:1370px;
+	margin-left:58px;
+	position:absolute;
+
+}
+.social{
+	width:260px;
+	margin-top:1480px;
+	margin-left:58px;
+	position:absolute;
+
+}
   
  

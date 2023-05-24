@@ -1,138 +1,787 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="style">
-	
-	
-	<title>my portfolio</title>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">	
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
-<body class="main-container">
-	
-  <p class="intro1" id="home">Hi, I'm <strong>Melinda.</strong> I'm an</p>
-	<p class="intro2">  aspiring UX Designer</p>
-	<div class="bio">
-		<p>I'm an aspiring UX designer with a passion for creating<br>
-			 intuitive and engaging digital experiences.With my skills<br>
-			  in user research, wireframing, and prototyping.I'm committed<br>
-			   to designing products that are not only aesthetically pleasing<br>
-			    but also functional and user-friendly.</p>
-	</div>
-	
-	<img class="profile" src="profile.jpg" alt="Avatar" width="360">
 
-<!--instagram,email,linkedin,facebook-->
+<body>
 
-<i class="fas fa-heartbeat beat-icon"></i>
-<a href="https://www.instagram.com/meelndaaa/"><img class="beat-icon1" src="instagram.png" alt="instagram icon"></a>
+  <!--
+    - #MAIN
+  -->
 
-<i class="fas fa-heartbeat beat-icon"></i>
-<a href="mailto:summermelindaperez@gmail.com"><img class="beat-icon2" src="gmail.png" alt="gmail icon"></a>
+  <main>
 
-<i class="fas fa-heartbeat beat-icon"></i>
-<a href="https://www.linkedin.com/in/melinda-vista-386a61257/"><img class="beat-icon3" src="linkedin.png" alt="linkedin icon"></a>
+    <!--
+      - #SIDEBAR
+    -->
 
-<i class="fas fa-heartbeat beat-icon"></i>
-<a href="Portfolio.html"><img class="beat-icon4" src="home.png" alt="home icon"></a>
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="profile.jpg" alt="Melinda Vista" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Melinda Vista">Melinda P. Vista</h1>
+
+          <p class="title">Aspiring UX Designer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:melindavista@gmail.com" class="contact-link">melindavista@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+639282591638" class="contact-link">+(63) 9282591638</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bicol, Philippines</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/melinda.perez.7906?mibextid=ZbWKwL" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/Melinda28735609" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/meelndaaa/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
 
 
-<!--<img class="skills-logo" src="skills.png">-->
-
-<div class="rectangle"></div>
-
-<image class="aboutme" id="about" src="about_me.png"></image>
 
 
-<div class="description">
-  <p>I am currently a self-taught UX designer who is just<br>
-	 starting out in this field. Although I have limited<br>
-    knowledge in this area,I am constantly learning and<br>
-	expanding my skillset as I work towards my goal of<br>
-    becoming an accomplished UX designer in the future.<br>
-    Below are some of my skills.</p>
-</div>
 
-<div class="skills"></div>
+    <!--
+      - #main-content
+    -->
 
-<img class="skills" src="skills.png"></img>
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
 
 
-<div class="topnav">
-	<a class="active" href="#home">Home</a>
-	<a href="#about">About</a>
-	<a href="#projects">Projects</a>
-	<a href="#blog">Blog</a>
-  </div>
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am currently a self-taught UX designer who is just
+            starting out in this field. Although I have limited
+           knowledge in this area,I am constantly learning and
+           expanding my skillset as I work towards my goal of
+           becoming an accomplished UX designer in the future.
+           Below are some of my skills.
+          </p>
+      </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I Do</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="web dev.jpeg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+
+                <p class="service-item-text">
+                    Creating and maintaining websites and web applications, involving tasks such as designing user interfaces, writing code, managing databases, and integrating various technologies to deliver functional and interactive online experiences.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="design.png" alt="UX design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UX Design</h4>
+
+                <p class="service-item-text">
+                    Creating intuitive and enjoyable user experiences by designing interfaces that are user-centered, visually appealing, and optimized for ease of use and engagement.
+                </p>
+              </div>
+
+            </li>
+
+           
+
+          </ul>
+
+        </section>
+
+  <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png">
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" ></h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                 
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+
+        <section class="projects">
+
+          <h3 class="h3 clients-title">Projects</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="project1.png" alt="ideasy">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="invoice.png" alt="sales invoice">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="regform.png" alt="registration form">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bicol University </h4>
+
+              <span>2021 — Current</span>
+
+              <p class="timeline-text">
+                I'm studying Information Technology.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cabasan National High School</h4>
+
+              <span>2015 — 2020</span>
+
+              <p class="timeline-text">
+                I graduated with high honors and ranked second in the class.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lead Generation Specialist</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                Identifying and acquiring potential customers or leads for a business or organization. 
+                We employ various strategies and techniques such as market research, data analysis, online marketing, and outreach to generate interest and gather contact information from individuals or companies who may be interested in the products or services offered by their client, with the goal of nurturing those leads into potential sales opportunities.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Freelance QA Analyst</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                Listening to audio or video recordings and converting them into written documents or transcripts, accurately capturing the spoken content, including speech, dialogue, and other relevant information, while ensuring proper formatting and clarity.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Javascript</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+    
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+          </ul>
+
+          </div>
+
+         
+      <!--
+        - #BLOGS
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="blockchain.jpeg" alt="Blockchain Technology" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Technology</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-01-21">Jan 21, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Blockchain Technology</h3>
+
+                  <p class="blog-text">
+                    One of the key features of blockchain is its decentralized nature.
+                     Instead of relying on a central authority or intermediary, like a bank, the network of participants collectively maintains and validates the blockchain. 
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="edge.jpeg" alt="Edge Computing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Technology</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-02-18">Feb 18, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Edge Computing</h3>
+
+                  <p class="blog-text">
+                    Distributed computing paradigm where data processing and storage occur near the source or "edge" of the 
+                    network, enabling faster response times, reduced latency, and improved efficiency in handling large volumes of data.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+         </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="map.png"
+            width="400" height="300" loading="lazy"></iframe>
+            </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
   
-<image class="anime" src="anime.png"></image>
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-
-<!--3RD PAGE-->
-<image class="project_titlepic" id="projects" src="project_title.png"></image>
-  <p></p>
-</div>
-
-<script>
-	const video = document.querySelector('video');
-video.play();
-
-</script>
-<video autoplay loop muted>
-	 <source src="video1.mp4" type="video/mp4">
-	Your browser does not support the video tag.
-  </video>
-  
   <script>
-	const video2 = document.querySelector('#video2');
-video2.pause();
+    'use strict';
 
 
+
+// element  for toggle function
+const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
+
+
+
+// sidebar variables
+const sidebar = document.querySelector("[data-sidebar]");
+const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+
+// sidebar toggle functionality for mobile
+sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
+
+
+
+// testimonials variables
+const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
+const modalContainer = document.querySelector("[data-modal-container]");
+const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
+const overlay = document.querySelector("[data-overlay]");
+
+// modal variable
+const modalImg = document.querySelector("[data-modal-img]");
+const modalTitle = document.querySelector("[data-modal-title]");
+const modalText = document.querySelector("[data-modal-text]");
+
+// modal toggle function
+const testimonialsModalFunc = function () {
+  modalContainer.classList.toggle("active");
+  overlay.classList.toggle("active");
+}
+
+// add click event to all modal items
+for (let i = 0; i < testimonialsItem.length; i++) {
+
+  testimonialsItem[i].addEventListener("click", function () {
+
+    modalImg.src = this.querySelector("[data-testimonials-avatar]").src;
+    modalImg.alt = this.querySelector("[data-testimonials-avatar]").alt;
+    modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
+    modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
+
+    testimonialsModalFunc();
+
+  });
+
+}
+
+// add click event to modal close button
+modalCloseBtn.addEventListener("click", testimonialsModalFunc);
+overlay.addEventListener("click", testimonialsModalFunc);
+
+
+
+// custom select variables
+const select = document.querySelector("[data-select]");
+const selectItems = document.querySelectorAll("[data-select-item]");
+const selectValue = document.querySelector("[data-selecct-value]");
+const filterBtn = document.querySelectorAll("[data-filter-btn]");
+
+select.addEventListener("click", function () { elementToggleFunc(this); });
+
+// add event in all select items
+for (let i = 0; i < selectItems.length; i++) {
+  selectItems[i].addEventListener("click", function () {
+
+    let selectedValue = this.innerText.toLowerCase();
+    selectValue.innerText = this.innerText;
+    elementToggleFunc(select);
+    filterFunc(selectedValue);
+
+  });
+}
+
+// filter variables
+const filterItems = document.querySelectorAll("[data-filter-item]");
+
+const filterFunc = function (selectedValue) {
+
+  for (let i = 0; i < filterItems.length; i++) {
+
+    if (selectedValue === "all") {
+      filterItems[i].classList.add("active");
+    } else if (selectedValue === filterItems[i].dataset.category) {
+      filterItems[i].classList.add("active");
+    } else {
+      filterItems[i].classList.remove("active");
+    }
+
+  }
+
+}
+
+// add event in all filter button items for large screen
+let lastClickedBtn = filterBtn[0];
+
+for (let i = 0; i < filterBtn.length; i++) {
+
+  filterBtn[i].addEventListener("click", function () {
+
+    let selectedValue = this.innerText.toLowerCase();
+    selectValue.innerText = this.innerText;
+    filterFunc(selectedValue);
+
+    lastClickedBtn.classList.remove("active");
+    this.classList.add("active");
+    lastClickedBtn = this;
+
+  });
+
+}
+
+
+
+// contact form variables
+const form = document.querySelector("[data-form]");
+const formInputs = document.querySelectorAll("[data-form-input]");
+const formBtn = document.querySelector("[data-form-btn]");
+
+// add event to all form input field
+for (let i = 0; i < formInputs.length; i++) {
+  formInputs[i].addEventListener("input", function () {
+
+    // check form validation
+    if (form.checkValidity()) {
+      formBtn.removeAttribute("disabled");
+    } else {
+      formBtn.setAttribute("disabled", "");
+    }
+
+  });
+}
+
+
+
+// page navigation variables
+const navigationLinks = document.querySelectorAll("[data-nav-link]");
+const pages = document.querySelectorAll("[data-page]");
+
+// add event to all nav link
+for (let i = 0; i < navigationLinks.length; i++) {
+  navigationLinks[i].addEventListener("click", function () {
+
+    for (let i = 0; i < pages.length; i++) {
+      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
+        pages[i].classList.add("active");
+        navigationLinks[i].classList.add("active");
+        window.scrollTo(0, 0);
+      } else {
+        pages[i].classList.remove("active");
+        navigationLinks[i].classList.remove("active");
+      }
+    }
+
+  });
+}
   </script>
-
-  <video id="video2" autoplay loop muted>
-	<source src="video2.mp4" type="video/mp4">
-	Your browser does not support the video tag.
-  </video>
-  
-  <script>
-	const video3 = document.querySelector('#video3');
-video3.pause();
-
-  </script>
-    <video id="video3" autoplay loop muted>
-	<source src="video3.mp4" type="video/mp4">
-	Your browser does not support the video tag.
-  </video>
-  
-
-
-  <image class="get_in_touch" src="get_in_touch.png"></image>
-  <image class="toy" src="toy.png"></image>
-  <image class="phone" src="phone.png"></image>
-  <image class="email" src="email.png"></image>
-  <image class="social" src="social.png"></image>
-
-  <div class="phone_number">
-	<p>(63) 928 259 1638</p>
-  </div>
-  <div class="email_address">
-	<p>melindavista0@gmail.com</p>
-  </div>
-
-  <i class="fas fa-heartbeat beat-icon"></i>
-<a href="https://www.instagram.com/meelndaaa/"><img class="social_icon" src="instagram.png" alt="instagram icon"></a>
-
-<i class="fas fa-heartbeat beat-icon"></i>
-<a href="https://www.linkedin.com/in/melinda-vista-386a61257/"><img class="social_icon2" src="linkedin.png" alt="linkedin icon"></a>
-
-<i class="fas fa-heartbeat beat-icon"></i>
-<a href="https://github.com/Coffeecrumble"><img class="social_icon3" src="github_icon.png" alt="github icon"></a>
-
-
-
-  
-	
 </body>
+
 </html>

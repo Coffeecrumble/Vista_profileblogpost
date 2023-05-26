@@ -1,2 +1,3 @@
- YEAR AND COURSE: BSIT 2-C
-NAME: MELINDA P. VISTA
+ Year and Course: BSIT 2-C
+  Name: MELINDA P. VISTA
+		Video Link:
